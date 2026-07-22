@@ -40,7 +40,7 @@ biohackathon_url:   "https://www.denbi.de/de-nbi-events/1840-4th-biohackathon-ge
 biohackathon_location: "Walsrode, Germany, 2025"
 group: Project 11
 # URL to project git repo --- should contain the actual paper.md:
-# git_url: https://github.com/biohackrxiv/publication-template
+git_url: https://github.com/mpc-bioinformatics/biohackGermany25_gamification
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
 authors_short: Lux \emph{et al.}
