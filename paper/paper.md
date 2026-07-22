@@ -89,7 +89,7 @@ Gamification tools can be broadly divided into several distinct sub categories. 
 
 Digging deeper into the table, these tools can be further categorized by their required effort and their engagement level. Trainers need to know how much effort is required to include gamification elements as well as the possible impact of engagement on their trainees. Since many of these tools are highly customizable, both effort and engagement can vary. We classified these tools based on our best estimates. Figure 1 illustrates our classification into three distinct groups: High, Medium and Low Effort for Trainers. Additionally, gamification tools, which cannot be modified are shown below to be used as is, if fitting to a training. Additionally, gamification tools, which cannot be modified are shown below to be used as is, if fitting to a training. Using this figure, trainers can roughly gauge the necessary effort and expected engagement for various gamification tools. 
 
-![Categorization of tools into low, medium and high effort as well as into the possible impact of engagement on trainees with addition of gamification tools, which can be used as is. \label{fig1}](.\Figure1_GAMIFICATION_TOOLS_CATEGORIZED.png)
+![Categorization of tools into low, medium and high effort as well as into the possible impact of engagement on trainees with addition of gamification tools, which can be used as is. \label{fig1}](./Figure1_GAMIFICATION_TOOLS_CATEGORIZED.png)
 
 To further clarify the implementation workload, an effort column is included in the table.   
 As all gamification tools are unique and some are even highly customizable, we estimated the effort based on how easily the tool integrates into a training program. It should be noted that factors such as payment plans, openness, flexibility and user interface can make this estimation subjective. Notably, the effort required for almost any tool can range from low to high, depending on the depth of gamification a trainer wishes to achieve. Tools, like Kahoot\! or ThingLink, can reduce implementation effort by utilizing AI or other guided elements, such as templates. Conversely, some gamification tools like OverTheWire Wargames are designed for niche audiences, requiring almost no implementation effort, with the trade off to limit its utility for broader training contexts. Through this column and the comprehensive table we hope trainers can make an informed decision about whether to incorporate gamification tools and, if so, which ones best suit their specific needs. 
@@ -98,7 +98,7 @@ As all gamification tools are unique and some are even highly customizable, we e
 
 In this hackathon, we formalized rules that serve as a comprehensive framework for developing gamification training modules, which are both engaging and scientifically robust. They emphasize a shift from superficial "points-based" systems to deep, competency-driven mechanics that respect the complexity of biological data. From the initial spark of a high-stakes narrative to the final "bridge to reality" that maps game actions to professional Python libraries or command-line tools, these rules aid that the training remains grounded in professional practice. 
 
-![10 simple rules for gamification in bioinformatics training. \label{fig2}](.\Figure2_10simplerules.png)
+![10 simple rules for gamification in bioinformatics training. \label{fig2}](./Figure2_10simplerules.png)
 
 **Rule 1: Let the Science Drive the Game**
 
@@ -161,7 +161,7 @@ We decided to further explore swirl and to transform the already existing hands-
 Once an answer is provided by the trainee, it is checked by swirl for correctness. For more complicated questions like command or script questions, where also multiple ways for solving may exist, a testing function can be written and provided to check the answer. If the answer was correct, an engaging message (e.g. “Excellent job\!”.) is printed to the console and the next question is displayed. If the answer was wrong, a hint can be displayed and the trainee can try again. If a question is hard to solve, it is also possible to enter a play mode that allows you to try things out in the R console before returning to the course. In the worst case, it is also possible to skip a question.
 
 
-![Screenshot of the R console during a swirl session. \label{fig3}](.\Figure3_screenshot_swirl.png)
+![Screenshot of the R console during a swirl session. \label{fig3}](./Figure3_screenshot_swirl.png)
 
 For setting up the course, we used the package swirlify [@usesMethodIn:kross\_swirlify\_2019], which provides a GUI to enter questions and edit swirl courses (see figure \ref{fig4}). On the left-hand side, the question type can be chosen and entered together with the correct answer, testcode for the trainees answers and hints. On the right-hand side, the underlying .yaml file for the lessons can be edited and a “Demo lesson” can be started for testing and debugging.
 
@@ -169,7 +169,7 @@ As we want to “swirlify” already existing course material, the usage of larg
 The finished courses can be easily shared by exporting them to the .swc file format, which can then be installed on a different computer.   
 The generated swirl course is available on github at [https://github.com/mpc-bioinformatics/swirl\_R\_course](https://github.com/mpc-bioinformatics/swirl_R_course).
 
-![Screenshot of the swirlify GUI which allows generation and editing of swirl courses. \label{fig4}](.\Figure4_screenshot_swirlify.png)
+![Screenshot of the swirlify GUI which allows generation and editing of swirl courses. \label{fig4}](./Figure4_screenshot_swirlify.png)
 
 ## **Example 2: Establishing an RDM Quiz in Wordwall** 
 
