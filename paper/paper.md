@@ -98,7 +98,7 @@ As all gamification tools are unique and some are even highly customizable, we e
 
 In this hackathon, we formalized rules that serve as a comprehensive framework for developing gamification training modules, which are both engaging and scientifically robust. They emphasize a shift from superficial "points-based" systems to deep, competency-driven mechanics that respect the complexity of biological data. From the initial spark of a high-stakes narrative to the final "bridge to reality" that maps game actions to professional Python libraries or command-line tools, these rules aid that the training remains grounded in professional practice. 
 
-![10 simple rules for gamification in bioinformatics training. \label{fig2}](./Figure2_10simplerules.png)
+![10 simple rules for gamification in bioinformatics training. The figure was created with Nano Banana Pro. \label{fig2}](./Figure2_10simplerules.png)
 
 **Rule 1: Let the Science Drive the Game**
 
